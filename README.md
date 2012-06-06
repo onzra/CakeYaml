@@ -9,6 +9,7 @@ Usage
 <?php
 
 CakePlugin::load('Yaml');
+
 App::import('Lib', 'Yaml.Yaml');
 
 use Symfony\Component\Yaml\Yaml;
