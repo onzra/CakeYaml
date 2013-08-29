@@ -25,6 +25,7 @@ if(!class_exists('Symfony\\Component\\Yaml\\Yaml', false)) {
 	App::import('Vendor', 'Yaml.Vendor.Escaper', array('file' => 'Yaml/Escaper.php'));
 	App::import('Vendor', 'Yaml.Vendor.Unescaper', array('file' => 'Yaml/Unescaper.php'));
 	App::import('Vendor', 'Yaml.Vendor.ExceptionInterface', array('file' => 'Yaml/Exception/ExceptionInterface.php'));
+	App::import('Vendor', 'Yaml.Vendor.RuntimeException', array('file' => 'Yaml/Exception/RuntimeException.php'));
 	App::import('Vendor', 'Yaml.Vendor.DumpException', array('file' => 'Yaml/Exception/DumpException.php'));
 	App::import('Vendor', 'Yaml.Vendor.ParseException', array('file' => 'Yaml/Exception/ParseException.php'));
 }
